@@ -1,0 +1,61 @@
+@media only screen and (max-width:992px){
+    header{
+        padding: 5px 20px;
+    }
+
+    .highlight-section >.container h4{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        }
+   
+    .key-highlights-block{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+        border-radius: 8px;
+    }
+}
+
+@media only screen and (max-width:576px){
+    header{
+        padding: 4px;
+    }
+
+    .logo{
+        width: 100px;
+    }
+
+    .fa-whatsapp-btn{
+        border: none !important;
+    }
+    .fa-whatsapp-btn i{
+        font-size: 28px !important;
+    }
+
+    .hero-section >.container .row >.col:first-child h1{
+        font-size: 32px;
+        line-height: 40px;
+        text-align: center;
+    }
+
+    .highlight-section >.container h4{
+        font-size: 30px;
+        font-weight: 500;
+        line-height: 30px;
+        text-align: center;
+        }
+   
+    .key-highlights-block{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
+        border-radius: 8px;
+    }
+    .Batch-detail-section >.container .row>.col{
+        border-bottom: 1px solid;
+        border-color: var(--theme-blue-color) ;
+
+    }
+}

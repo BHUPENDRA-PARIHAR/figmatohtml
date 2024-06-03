@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root{
+    --theme-blue-color:#2699fb ;
+}
+
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal; 
+    list-style: none;
+}
+
+header{
+    padding: 15px 135px;
+}
+
+.themeBtn{
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    color: white;
+    border-radius: 8px ;
+}
+
+.themeBtn:hover{
+    background: transparent;
+    border-color: black;
+    color: black;
+}
+
+.hero-section >.container .row >.col:first-child h1{
+    font-family: Inter;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 68px;
+    text-align: left;
+    background-image: url(../img/Vector\ 63.png);
+    background-repeat: no-repeat;
+    background-size: 60%;
+    background-position: 45% 98%;
+}
+
+.hero-section >.container .row >.col:first-child h1 span{
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.hero-section >.container .row >.col:first-child p{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 35px;
+    text-align: left;
+    color: #0A2134;
+}
+
+.hero-section >.container .row >.col:first-child ul li i{
+    color: var(--theme-blue-color);
+}
+.hero-section >.container .row >.col:first-child ul li{
+    line-height: 30px;
+}
+
+.hero-section-form{
+    max-width:500px;
+    margin: auto;
+    background-image: url(../img/Ellipse\ 92.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.hero-section-form form{
+    box-shadow: 0 1px 2px 0 #1018280F;
+}
+
+.hero-section-form form >div:first-child h2{
+    font-size: 25px;
+    font-weight:700;
+    text-align: center;
+    color: white;
+    -webkit-text-stroke: 2px var(--theme-blue-color);
+}
+.hero-section-form form >div:first-child p{
+    font-size: 16px;
+    font-weight:400;
+    color: white;
+    -webkit-text-stroke: 1px var(--theme-blue-color); 
+}
+
+.Batch-detail-section >.container .row{
+    box-shadow: 0px 4px 80px -2px #002F5814;
+}
+
+.Batch-detail-section >.container .row>.col h1{
+    color: var(--theme-blue-color);
+}
+.Batch-detail-section >.container .row>.col p{
+    color:#43505B;
+}
+
+.highlight-section{
+    background-color:#F7FAFF;
+}
+
+.highlight-section >.container h4{
+font-size: 36px;
+font-weight: 700;
+line-height: 43.57px;
+text-align: left;
+}
+
+
+.highlight-section >.container p{
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+}
+.highlight-section >.container button{
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+}
+
+.key-highlights-block{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    border-radius: 8px;
+}
+
+.inner-img{
+    background-color: #E9f8ff;
+    border-radius: 8px;
+}
+
+.inner-img-2{
+    background-color: #fff4ef;
+    border-radius: 8px;
+}
+
+.inner-img-3{
+    background-color: #FBF0FD ;
+    border-radius: 8px;
+}
+
+.inner-img-4{
+    background-color:#f0fcf6 ;
+    border-radius: 8px;
+}
+
+.inner-img-5{
+    background-color:#f1f1fc ;
+    border-radius: 8px;
+}
+
+.inner-img-6{
+    background-color: #fdefef ;
+    border-radius: 8px;
+}
+
+.card{
+    box-shadow: 0px 4px 20px -2px #002F5814;
+}
+
+.img-thumbnail{
+box-shadow: 0px 0px 4px 2px #1018280F;
+}
+
+.certified-section{
+    background-color:#F7FAFF;
+}
+
+.certificate-block{
+    background-image: url(../img/image\ 136.png), url(../img/Ellipse\ 94.png);
+    background-repeat: no-repeat, no-repeat;
+    background-position: 7% 10%,  65% 95%;
+}
+
+.curriculum-block > .container p{
+    font-size: 18px;
+    color: #0A2134;
+}
+
+.curriculum-block >.container >.row button{
+    border: none;
+    background-color: white;
+    transition: 0.2s;
+}
+
+.curriculum-block >.container >.row button:hover{
+    background-color: #f3f4f7;
+    border-bottom: 3px solid var(--theme-blue-color);
+}
+
+.curriculum-block >.container >.row ul li i{
+    color: var(--theme-blue-color);
+}
+
+.quest{
+    box-shadow: 0px 4px 20px -2px #002F5814;
+
+}
+
+.whylearn-section{
+    background-color:#F7FAFF;
+}
+
+.curriculum-block >.container >.row ul li span{
+    text-indent: 50px;
+}
