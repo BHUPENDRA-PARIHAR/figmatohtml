@@ -173,7 +173,7 @@ box-shadow: 0px 0px 4px 2px #1018280F;
 .certificate-block{
     background-image: url(../img/image\ 136.png), url(../img/Ellipse\ 94.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: 7% 10%,  65% 95%;
+    background-position: 3% 5%,  100% 100%;
 }
 
 .curriculum-block > .container p{
@@ -256,4 +256,9 @@ text-align: left;
 
 footer{
     background-color: #0a2540;
+}
+
+.my-btn:hover{
+    border: 1px solid;
+    
 }
