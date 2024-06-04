@@ -205,6 +205,55 @@ box-shadow: 0px 0px 4px 2px #1018280F;
     background-color:#F7FAFF;
 }
 
-.curriculum-block >.container >.row ul li span{
-    text-indent: 50px;
+.curriculum-block > .container > .row ul li span{
+   padding-left: 30px;
+}
+
+.whylearn-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+
+.card-content{
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+}
+
+.feedback .container:last-child{
+    background: linear-gradient(93.77deg, #0ACEFE -6.36%, #2699FB 50.16%);
+}
+
+.div-img{
+    height: 330px;
+    width: 215px;
+    background-image: url(../img/image\ 145.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0% 0%;
+}
+.div-img2{
+    height: 330px;
+    width: 215px;
+    background-image: url(../img/image\ 146.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 100% 90%;
+}
+
+.accordion-body{
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+}
+
+.FAQ{
+    background-color:#F7FAFF;   
+}
+
+footer{
+    background-color: #0a2540;
 }

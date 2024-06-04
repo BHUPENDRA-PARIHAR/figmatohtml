@@ -16,6 +16,11 @@
         gap: 10px;
         border-radius: 8px;
     }
+    .whylearn-card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
 }
 
 @media only screen and (max-width:576px){
@@ -56,6 +61,11 @@
     .Batch-detail-section >.container .row>.col{
         border-bottom: 1px solid;
         border-color: var(--theme-blue-color) ;
+    }
 
+    .whylearn-card{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 20px;
     }
 }
