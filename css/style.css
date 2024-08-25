@@ -254,6 +254,11 @@ text-align: left;
     background-color:#F7FAFF;   
 }
 
+.company-Img img{
+    width: 100vw;
+}
+
+
 footer{
     background-color: #0a2540;
 }
